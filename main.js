@@ -23,17 +23,23 @@ const students = [
 console.log('Challenge 1')
 //console.log(students);
 var i;
-for (i = 0; i < students.length; i++) {
-  console.log()
+for (i = 10; i < students.length; i++) {
+  console.log(students)
 } 
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
 console.log('Challenge 2')
-console.log(grades)
-grades.reverse(grades);
-console.log(grades)
+// console.log(grades)
+// grades.reverse(grades);
+// console.log(grades)
+var i;
+for (i = 5; i < grades.length; i++) {
+  console.log(grades[05])
+} 
+
+
 
 
 // Challenge 3
